@@ -1,0 +1,91 @@
+img {
+  height:200px;
+}
+
+h3, .h3 {
+  text-align:center;
+}
+
+.title {
+  text-align:center;
+}
+
+img {
+  margin:auto;
+  display:block;
+}
+
+#execTitle {
+  text-align:center;
+}
+
+#Descrip {
+  text-align:center;
+  margin:0 auto;
+  padding-bottom:40px;
+}
+
+#aboutHeader {
+  text-align:center;
+  padding-top:40px;
+  padding-bottom:5px;
+}
+
+#aboutText {
+  text-align:center;
+  padding-bottom:10px;
+  font-size:11pt;
+}
+
+.description {
+  margin-bottom:30px;
+}
+
+#TeamCont {
+  padding-bottom:40px;
+}
+
+#brand {
+  color:white;
+  font-size:37pt;
+  text-align:center;
+}
+
+#underHead {
+  color:white;
+  text-align:center;
+  font-size:17pt;
+}
+
+#landingContainer {
+  padding-top:200px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+}
+
+#about {
+  padding-top:50px;
+}
+
+#cont {
+  font-size:25px;
+  text-align:center;
+}
+
+#contact {
+  text-align:center;
+  padding-bottom:30px;
+}
+
+#button {
+  display:block;
+  text-align:center;
+}
+
+#linkbut {
+  font-size:80pt;
+  color:white;
+  padding-top:25px;
+}
+
