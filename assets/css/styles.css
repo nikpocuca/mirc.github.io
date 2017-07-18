@@ -122,3 +122,34 @@ h1, .h1 {
   max-width:200px;
 }
 
+.old {
+  width:185px;
+  max-width:185px;
+  display:block;
+}
+
+.old {
+  width:185px;
+  max-width:185px;
+  display:block;
+}
+
+.oldfront {
+  width:200px;
+  max-height:500px;
+  max-width:200px;
+  display:block;
+}
+
+#johnson {
+  max-height:500px;
+  max-width:200px;
+  display:block;
+}
+
+#lucas {
+  max-height:500px;
+  max-width:200px;
+  display:block;
+}
+
