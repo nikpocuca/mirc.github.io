@@ -89,3 +89,36 @@ img {
   padding-top:25px;
 }
 
+h1, .h1 {
+  text-align:center;
+  padding-top:40px;
+  padding-bottom:5px;
+}
+
+.text-center {
+  padding-bottom:10px;
+}
+
+img {
+}
+
+#omar {
+  width:185px;
+  max-width:185px;
+  display:block;
+}
+
+h1, .h1 {
+  padding-top:10px;
+}
+
+#sid {
+  width:185px;
+  max-width:185px;
+  display:block;
+}
+
+#lucas {
+  max-width:200px;
+}
+
