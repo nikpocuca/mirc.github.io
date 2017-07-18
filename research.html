@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MircRedo</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
+</head>
+
+<body>
+    <div data-bs-parallax-bg="true" id="parBackground" style="height:700px;background-image:url(assets/img/highway.jpg);background-position:center;background-size:cover;">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">MIRC </a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" role="presentation"><a href="index.html" class="page-scroll">Info </a></li>
+                        <li role="presentation"><a href="#">People </a></li>
+                        <li role="presentation"><a href="research.html">Research </a></li>
+                        <li role="presentation"><a href="archive.html">Archive </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="intro">
+            <div class="intro-body">
+                <div class="container">
+                    <div class="row" id="header">
+                        <div class="col-md-12" id="landingContainer">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h1 id="brand" class="brand-heading">Research </h1>
+                                <p id="underHead" class="intro-text">Mathematics | Statistics | Finance </p>
+                                <a href="#" id="button" class="class=&quot;btn btn-circle page-scroll&quot;"> <i class="fa fa-angle-double-down" id="linkbut"></i></a>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="projects-horizontal">
+        <div class="container">
+            <div class="intro">
+                <h1 id="industry">Industry Projects</h1>
+                <p class="text-center" id="projectDescriptIndustry">We take on projects from companies with the prupose of developing trading strategies or models pertaining to financial risk. Below are current projects we are working on. </p>
+            </div>
+            <hr id="hrSize" class="divider">
+            <div class="row projects">
+                <div class="col-md-8 col-md-offset-2 col-sm-6 item project image"><img src="assets/img/bearing.png"></div>
+                <div class="col-md-12">
+                    <p class="projectPara">The Mathematical Investment Research Council was approached by Bearing Capital Partners to develop and implement a strategy for locking in/paying out insurance on volatility using exchange traded instruments. The strategy involves
+                        a model which finds the optimal combination of various indicators related to the behaviour of uncertain markets and the instruments traded. </p>
+                </div>
+                <div class="col-md-12">
+                    <hr id="hrSize" class="divider"><img src="assets/img/mirc_bull.png" id="mircbull">
+                    <h1 id="personal">Personal Projects</h1></div>
+                <div class="col-md-12">
+                    <p class="text-center" id="projectDescriptPersonal">We develop our own financial models and trading algorithims to aid us in investments and competitions such as the CME Trading challenge. All projects are showcased at council meetings.</p>
+                    <hr id="hrSize" class="divider">
+                </div>
+                <div class="col-md-8 col-md-offset-2 col-sm-6 item project image"><img src="assets/img/algo1.gif" class="gif"></div>
+                <div class="col-md-12">
+                    <p class="projectPara">In January of 2017, the MIRC had come across changepoint analysis which is a method for detecting changes in time series models. The CATA/Mk-1 uses simple buy low, sell high trading strategy but with a twist. The changepoint method
+                        tracks which state the stock/ETF is in. As long as the ETF/stock is in the state the algorithim will trade. However if a changepoint is detected then the state has changed and the algorithim will clear the ETF/stock off the portfolio.
+                        It will resume trading once the new state has been established. The CATA/Mk-1 has a Sharpe ratio of 2.8, and a 380% ROI over 3 years. Future improvements in CATA/Mk-2 will allow it to track and read news articles using a neural
+                        net and eliminate any drawdown effects. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+</body>
+
+</html>

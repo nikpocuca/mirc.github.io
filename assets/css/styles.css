@@ -49,12 +49,16 @@ img {
   color:white;
   font-size:37pt;
   text-align:center;
+  margin:0 auto;
+  display:block;
 }
 
 #underHead {
   color:white;
   text-align:center;
   font-size:17pt;
+  margin:0 auto;
+  display:block;
 }
 
 #landingContainer {
@@ -87,6 +91,8 @@ img {
   font-size:80pt;
   color:white;
   padding-top:25px;
+  margin:0 auto;
+  display:block;
 }
 
 h1, .h1 {
@@ -103,18 +109,19 @@ img {
 }
 
 #omar {
-  width:185px;
-  max-width:185px;
+  width:195px;
+  max-width:195px;
   display:block;
 }
 
 h1, .h1 {
-  padding-top:10px;
+  padding-top:50px;
+  margin:0 auto;
 }
 
 #sid {
-  width:185px;
-  max-width:185px;
+  width:195px;
+  max-width:195px;
   display:block;
 }
 
@@ -149,7 +156,7 @@ h1, .h1 {
 
 #lucas {
   max-height:500px;
-  max-width:200px;
+  max-width:225px;
   display:block;
 }
 

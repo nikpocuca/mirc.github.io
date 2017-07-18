@@ -1,0 +1,171 @@
+.projects-horizontal {
+  color:#313437;
+  background-color:#fff;
+}
+
+.projects-horizontal p {
+  color:#7d8285;
+}
+
+.projects-horizontal h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .projects-horizontal h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.projects-horizontal .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 10px;
+}
+
+.projects-horizontal .projects {
+  padding-bottom:40px;
+}
+
+.projects-horizontal .item {
+  padding-top:60px;
+  min-height:160px;
+}
+
+@media (max-width:767px) {
+  .projects-horizontal .item {
+    padding-top:0px;
+    min-height:150px;
+  }
+}
+
+.projects-horizontal .item .name {
+  font-size:18px;
+  font-weight:bold;
+  margin-top:10px;
+  margin-bottom:15px;
+  color:inherit;
+}
+
+@media (max-width:991px) {
+  .projects-horizontal .item .name {
+    margin-top:22px;
+  }
+}
+
+.projects-horizontal .item .description {
+  font-size:15px;
+  margin-bottom:0;
+}
+
+.projectPara {
+  width:700px;
+  margin:0 auto;
+  text-align:center;
+  padding-bottom:100px;
+}
+
+.col-md-offset-3.col-sm-6.item.project.image {
+  padding-top:80px;
+}
+
+.teamPara {
+  margin:0 auto;
+  text-align:center;
+  font-size:15pt;
+}
+
+h1, .h1 {
+  font-size:19pt;
+  margin:0 auto;
+  text-align:center;
+}
+
+h1, .h1 {
+  text-align:center;
+}
+
+.membPara {
+  text-align:center;
+  font-size:13pt;
+}
+
+h1, .h1 {
+}
+
+#bearing {
+  font-size:25pt;
+  padding-top:30pt;
+}
+
+.membPara {
+}
+
+#first {
+  padding-top:10pt;
+}
+
+.glyphicon.glyphicon-menu-right {
+  padding-right:10px;
+}
+
+.membPara {
+  font-size:14pt;
+}
+
+.membPara {
+  font-size:16pt;
+}
+
+#industry {
+  padding-top:120px;
+}
+
+.col-md-5.col-md-offset-4.col-sm-6.item.project.image {
+  display:block;
+}
+
+#hrSize {
+  /*hr {
+  margin-top:20px;*/
+  margin-bottom:20px;
+  border:0;
+  border-top:2px solid #cdcdcd;
+  padding-bottom:75px;
+}
+
+#projectDescriptIndustry {
+  padding-bottom:120px;
+}
+
+#projectDescriptIndustry {
+}
+
+#projectDescriptPersonal {
+  padding-bottom:120px;
+  width:500px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.gif {
+  width:450px;
+  height:275px;
+}
+
+#mircbull {
+}
+
+#personal {
+}
+
+.col-lg-offset-2.col-md-5.col-md-offset-0.col-sm-6.item {
+  display:block;
+  margin:0 auto;
+}
+
